@@ -1,0 +1,102 @@
+.weather__title {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: var(--ui-font-family-secondary,var(--ui-font-family-open-sans));
+    font-weight: var(--ui-font-weight-bold,700);
+    font-size: var(--ui-font-size-xs,12px);
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.weather__title img {
+    width: 40px;
+    height: 40px;
+}
+
+.weather__container {
+    background: var(--ui-color-background-primary,#fff);
+    border-radius: var(--sidebar-widget-border-radius,var(--ui-border-radius-md,0));
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 20px;
+}
+
+.weather__status {
+    padding-left: 10px;
+}
+
+.weather__min {
+    padding-right: 5px;
+}
+
+.weather__max {
+    padding-left: 5px;
+}
+
+.weather__other {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.weather__humidity {
+    padding-right: 5px;
+}
+
+.weather__humidity img {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.weather__wind {
+    padding-left: 5px;
+}
+
+.weather__wind img {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.weather__weather img {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.weather__temp {
+    padding-right: 5px;
+}
+
+.weather__weather {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.weather .sidebar-widget {
+    margin-bottom: 17px;
+    --sidebar-widget-border-radius: var(--ui-border-radius-md,0);
+}
+
+.weather .sidebar-widget-top {
+    background-color: #2fc6f6;
+}
+
+.weather .sidebar-widget-top {
+    height: 40px;
+    position: relative;
+    border-radius: var(--sidebar-widget-border-radius,var(--ui-border-radius-md,0));
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.weather .sidebar-widget-content, .sidebar-widget-item-wrap {
+    background: var(--ui-color-background-primary,#fff);
+    border-radius: var(--sidebar-widget-border-radius,var(--ui-border-radius-md,0));
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
